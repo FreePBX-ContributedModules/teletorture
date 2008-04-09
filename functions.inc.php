@@ -165,9 +165,15 @@ function teletorture_get_config($engine) {
       $ext->add('app-telemarket-poli-American', 's', 'begin', new ext_goto('begin','s','app-telemarket-sorry'));
       $ext->add('app-telemarket-poli-Am1st', 's', 'begin', new ext_goto('begin','s','app-telemarket-sorry'));
       //app-telemarket-research
+      $ext->add('app-telemarket-pollster', 's', 'begin', new ext_background('telemark-poll-intro'));
       $ext->add('app-telemarket-research', 't', '', new ext_goto('begin','s','app-telemarket'));
       $ext->add('app-telemarket-research', 'i', '', new ext_goto('begin','s','app-telemarket'));
       $ext->add('app-telemarket-research', 'o', '', new ext_goto('begin','s','app-telemarket'));
+      //app-telemarket-pollster
+      $ext->add('app-telemarket-pollster', 's', 'begin', new ext_background('telemark-poll-intro'));
+      $ext->add('app-telemarket-pollster', 't', '', new ext_goto('begin','s','app-telemarket'));
+      $ext->add('app-telemarket-pollster', 'i', '', new ext_goto('begin','s','app-telemarket'));
+      $ext->add('app-telemarket-pollster', 'o', '', new ext_goto('begin','s','app-telemarket'));   
       //app-telemarket-magazine
       $ext->add('app-telemarket-magazine', 's', 'begin', new ext_background('telemark-mag-choices'));
       $ext->add('app-telemarket-magazine', '1', '', new ext_goto('begin','s','app-telemark-mag-new'));
