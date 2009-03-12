@@ -7,7 +7,7 @@
         </description>
 	<type>setup</type>
 	<category>Third Party Addon</category>
-	<location></location>
+	<location>contributed_modules/release/teletorture-0.0.4.tgz</location>
 	<info></info>
         <changelog>
                 *0.0.4* Add missing context.. woops no one caught that.... well someone just did hence this change...
@@ -15,4 +15,5 @@
         	*0.0.2* Fix case for Pot party so it loops properly...
                 *0.0.1* First Attempt at a module why not telemarketer torture...
         </changelog>
+<md5sum>fe9ec552e62d1181577a2d946deab372</md5sum>
 </module>
